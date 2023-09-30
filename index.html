@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      text-align: center;
+    }
+
+    .container {
+      background-color: #ffffff;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      padding: 20px;
+      margin: 50px auto;
+      max-width: 400px;
+    }
+
+    h1 {
+      color: #333;
+    }
+
+    input[type="email"] {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 16px;
+    }
+
+    input[type="email"]:focus {
+      outline: none;
+      border-color: #007bff;
+    }
+
+    .submit-btn {
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      padding: 10px 20px;
+      cursor: pointer;
+      font-size: 18px;
+    }
+
+    .submit-btn:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Subscribe to Our Newsletter</h1>
+    <form action="your_server_script.php" method="post">
+      <input type="email" name="email" placeholder="Enter your email" required>
+      <br>
+      <button type="submit" class="submit-btn">Subscribe</button>
+    </form>
+  </div>
+</body>
+</html>
